@@ -16,19 +16,14 @@ This tool converts domain names to their corresponding IP addresses in bulk usin
 ## Installation
 This tool requires Python 3. Install the required libraries using `pip`:
 
-```bash
+```
 pip install colorama
 Usage
 Clone the repository:
 
-bash
-Copy code
-git clone https://github.com/your-username/domain-to-ip-tool.git
-cd domain-to-ip-tool
+git clone https://github.com/eclibesec/domi.git
+cd domi
 Run the script:
-
-bash
-Copy code
 python domain_to_ip.py
 Provide the required inputs:
 
@@ -38,30 +33,24 @@ The number of threads to use (between 1 and 100).
 Example
 If you have a file domains.txt with the following contents:
 
-Copy code
 example.com
 invalid-domain
 google.com
 You would run the script like this:
 
-bash
-Copy code
+
 $ python domain_to_ip.py
 $ give me your file: domains.txt
 $ output filename? : output.txt
 threads > 1-100: 10
 The output would look like this:
 
-csharp
-Copy code
 [example.com -> 93.184.216.34]
 [bad -> invalid-domain]
 [google.com -> 142.250.72.14]
 Data has been saved to 'output.txt'
 Duplicate lines have been removed from 'output.txt'
 The output.txt file will contain:
-
-Copy code
 93.184.216.34
 142.250.72.14
 Error Handling
@@ -69,8 +58,3 @@ If the input file is not found, an error message will be displayed.
 If any domain is invalid or cannot be resolved, it will be marked with a red bad -> domain_name.
 License
 This tool was developed by Eclibes Security Labs. You are free to use and modify it under the MIT License.
-
-go
-Copy code
-
-Just copy and paste the above content into your `README.md` file!
