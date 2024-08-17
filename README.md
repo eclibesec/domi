@@ -24,7 +24,7 @@ Clone the repository:
 git clone https://github.com/eclibesec/domi.git
 cd domi
 Run the script:
-python domain_to_ip.py
+python domi.py
 Provide the required inputs:
 
 A file containing the list of domains.
