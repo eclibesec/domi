@@ -57,4 +57,4 @@ Error Handling
 If the input file is not found, an error message will be displayed.
 If any domain is invalid or cannot be resolved, it will be marked with a red bad -> domain_name.
 License
-This tool was developed by Eclibes Security Labs. You are free to use and modify it under the MIT License.
+This tool was developed by Eclibes Security Labs. You are free to use and modify...
