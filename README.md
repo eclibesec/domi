@@ -39,7 +39,7 @@ google.com
 You would run the script like this:
 
 
-$ python domain_to_ip.py
+$ python domi.py
 $ give me your file: domains.txt
 $ output filename? : output.txt
 threads > 1-100: 10
